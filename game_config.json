@@ -1,0 +1,26 @@
+
+
+{
+  "bg_items": [
+    { "index": 101, "value": 10.0, "flag": true },
+    { "index": 102, "value": 15.0, "flag": false },
+    { "index": 103, "value": 5.0, "flag": true }
+  ],
+  "fg_items": [
+    { "index": 201, "value": 100.0, "flag": true, "count": 3 },
+    { "index": 202, "value": 250.0, "flag": false, "count": 5 },
+    { "index": 203, "value": 500.0, "flag": true, "count": 1 },
+    { "index": 204, "value": 25.0, "flag": false, "count": 0 },
+    { "index": 205, "value": 50.0, "flag": true, "count": 4 }
+  ],
+  "multiplier_pools": [
+    [1.0, 1.5, 2.0, 2.5, 5.0],
+    [1.0, 1.0, 1.0, 3.0, 10.0]
+  ],
+  "item_to_pool_map": {
+    "201": 0,
+    "202": 1,
+    "203": 1,
+    "205": 0
+  }
+}
